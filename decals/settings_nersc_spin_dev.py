@@ -1,4 +1,5 @@
 from decals.settings_common import *
+import os
 
 #ENABLE_SQL = True
 
@@ -38,4 +39,5 @@ ENABLE_EBOSS = True
 # SDSS_PHOTOOBJS = '/project/projectdirs/cosmo/data/sdss/dr10/boss/photoObj'
 # SDSS_RESOLVE = '/project/projectdirs/cosmo/data/sdss/pre13/eboss/resolve/2013-07-29'
 
-ALLOWED_HOSTS += ["web"]
+if os.environ["STUPID_WEB_IP"]:
+    ALLOWED_HOSTS += [os.environ["STUPID_WEB_IP"]]
