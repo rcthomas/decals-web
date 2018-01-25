@@ -10,11 +10,8 @@ USER_QUERY_DIR = '/tmp/viewer-dev-user'
 
 READ_ONLY_BASEDIR = True
 
-# root_url = '/viewer-dev'
-# static_url_path = '/viewer-dev/static'
-
-root_url = '/'
-static_url_path = '/static'
+root_url = '/viewer-dev'
+static_url_path = '/viewer-dev/static'
 
 STATIC_URL = 'http://%s%s/' % (HOSTNAME, STATIC_URL_PATH)
 TILE_URL = 'http://{s}.%s%s/{id}/{ver}/{z}/{x}/{y}.jpg' % (HOSTNAME, ROOT_URL)
