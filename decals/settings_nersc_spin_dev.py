@@ -39,4 +39,4 @@ ENABLE_EBOSS = True
 # SDSS_RESOLVE = '/project/projectdirs/cosmo/data/sdss/pre13/eboss/resolve/2013-07-29'
 
 # Allow NERSC Spin dev-cattle environment to work
-ALLOWED_HOSTS += ["web.decals-viewer-dev.dev-cattle.stable.spin.nersc.org"]
+ALLOWED_HOSTS += ["decals-viewer-dev.nersc.gov"]
