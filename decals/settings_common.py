@@ -52,7 +52,8 @@ MAX_NATIVE_ZOOM = 15
 SAVE_CACHE = False
 
 ROOT_URL = '/viewer'
-HOSTNAME = 'legacysurvey.org'
+#RCT HOSTNAME = 'legacysurvey.org'
+HOSTNAME = 'decals-viewer-dev.nersc.gov'
 SUBDOMAINS = ['a','b','c','d']
 
 STATIC_URL_PATH = '/static/'
