@@ -40,3 +40,7 @@ ENABLE_EBOSS = True
 
 # Allow NERSC Spin dev-cattle environment to work
 ALLOWED_HOSTS += ["decals-viewer-dev.nersc.gov"]
+ALLOWED_HOSTS += ["a.decals-viewer-dev.nersc.gov"]
+ALLOWED_HOSTS += ["b.decals-viewer-dev.nersc.gov"]
+ALLOWED_HOSTS += ["c.decals-viewer-dev.nersc.gov"]
+ALLOWED_HOSTS += ["d.decals-viewer-dev.nersc.gov"]
