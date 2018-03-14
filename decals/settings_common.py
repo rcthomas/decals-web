@@ -51,7 +51,8 @@ MAX_NATIVE_ZOOM = 15
 # Tile cache is writable?
 SAVE_CACHE = False
 
-ROOT_URL = '/viewer'
+#RCT ROOT_URL = '/viewer'
+ROOT_URL = '/viewer-dev'
 #RCT HOSTNAME = 'legacysurvey.org'
 HOSTNAME = 'decals-viewer-dev.nersc.gov'
 SUBDOMAINS = ['a','b','c','d']
