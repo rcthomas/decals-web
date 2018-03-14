@@ -67,7 +67,8 @@ CAT_URL = 'http://{s}.%s%s/{id}/{ver}/{z}/{x}/{y}.cat.json' % (HOSTNAME, ROOT_UR
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR   = os.path.dirname(__file__)
-WEB_DIR    = os.path.dirname(BASE_DIR)
+#RCT WEB_DIR    = os.path.dirname(BASE_DIR)
+WEB_DIR    = "/project/projectdirs/cosmo/webapp/viewer-dev"
 DATA_DIR   = os.path.join(WEB_DIR, 'data')
 DUST_DIR   = os.path.join(DATA_DIR, 'dust')
 HALPHA_DIR = os.path.join(DATA_DIR, 'halpha')
